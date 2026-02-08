@@ -661,6 +661,29 @@ section {
     font-size: 0.875rem;
 }
 
+.footer-bottom p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-separator {
+    margin: 0 0.5rem;
+    opacity: 0.5;
+}
+
+.footer-bottom a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: var(--primary-green);
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
